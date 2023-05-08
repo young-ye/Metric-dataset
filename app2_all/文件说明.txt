@@ -1,0 +1,6 @@
+before里头放的是之前59个app2文件，但是不知道是谁做过resample了
+max_app2：是高分辨率下的app2重建，Z:\SEU-ALLEN\Users\yfliu\transtation\seu_mouse\crop_data\dendriteImageMaxR\app2
+max_app2_raname：是按照金标准找对应的app2文件，并且改名跟金标准保持一致
+max_app2_crop：是把文件按金标准的规格，以soma为中心进行切割
+max_app2_resample：以max_app2_crop按4步长resample
+app2_move_x_y：x是指移动多少个点，y是指移动多远

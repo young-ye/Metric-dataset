@@ -1,0 +1,13 @@
+raw_data：从1704个神经元中，按之前的59个去挑选
+
+gt：对raw_data进行crop
+gt_resample：对gt进行10步长下采样
+
+miss_resample：对miss进行2步长的下采样
+
+opt_mistake：取了一个小结构，父子顺序是颠倒的，之后会把这个结构拼接到swc上
+
+gt_all：是diadem验证中，移动靠近soma的节点，gt_1_10意味着移动了靠近soma的一个节点，移动距离为xyz轴+10
+
+gt_opt_topu和pre_opt_topu是opt验证实验中用到的父子连接顺序颠倒的虚假数据集
+
